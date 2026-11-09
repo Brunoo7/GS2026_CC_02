@@ -16,7 +16,7 @@ Saída S = 1: reúne os documentos para solicitar o título.
 
 Fonte das regras: TSE, "Eleitor em Dia: confira quais documentos são
 necessários para tirar o título até 6 de maio" (05/03/2026, atualizada
-em 08/07/2026). Consultada em 08/11/2026.
+em 08/07/2026). Consultada em 09/11/2026.
 """
 
 from itertools import product
