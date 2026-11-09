@@ -63,7 +63,7 @@ def regra_original(A, B, C, D):
 
 
 def forma_canonica(A, B, C, D):
-    """Soma de mintermos: S = A'BCD' + A'BCD + ABCD  (Σm(6, 7, 15))"""
+    """Soma de mintermos: S = A'BCD' + A'BCD + ABCD  (m6 + m7 + m15)"""
     m6 = nao(A) & B & C & nao(D)
     m7 = nao(A) & B & C & D
     m15 = A & B & C & D
